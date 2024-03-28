@@ -37,6 +37,7 @@ type PokemonDetails = {
 async function getPokemonDetails(
   pokemonIdNumber: number
 ): Promise<PokemonDetails> {
+  await new Promise((resolve) => setTimeout(resolve, 500));
   const pokemon = await getPokemon(pokemonIdNumber);
   const prevPokemon =
     pokemonIdNumber - 1 > 0
