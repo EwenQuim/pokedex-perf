@@ -1,15 +1,16 @@
-# Pokedex application compagnion to a Programmez! article
+# Pokedex application to learn performance optimization 🚀
 
 ## Get your own copy of this repo on github deployed on Vercel
 
-[![Deploy template](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FJeremie-Chauvel%2Fpokedex-perf-programmez%2Ftree%2Fmain&project-name=pokedex-perf-programmez&repository-name=pokedex-perf-programmez)
+[![Deploy template](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FEwenQuim%2Fpokedex-perf%2Ftree%2Fmain&project-name=pokedex-perf&repository-name=pokedex-perf)
 
 ## Prerequisites
 
-You need nodejs and pnpm installed to run this project, I recommend [using a nodejs version manager like fnm to install the correct nodejs version](https://github.com/Schniz/fnm#installation).
+You need nodejs and pnpm installed to run this project, I recommend [using a nodejs version manager like nvm to install the correct nodejs version](https://github.com/nvm-sh/nvm).
 
-Then install nodejs and use the correct nodejs version: `fnm install && fnm use`
-and install pnpm: `corepack enable && corepack prepare pnpm@7.13.4 --activate`.
+Then install nodejs and use the correct nodejs version: `nvm install && nvm use`.
+
+Then install pnpm: `npm install -g pnpm`.
 
 ## Getting Started
 
